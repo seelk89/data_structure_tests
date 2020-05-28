@@ -72,4 +72,4 @@ start = timeit.default_timer()
 for i in range(1000):
     print(get_by_number(i))
 
-print('Write time: ', (timeit.default_timer() - start) / 1000)
+print('Read time: ', (timeit.default_timer() - start) / 1000)
